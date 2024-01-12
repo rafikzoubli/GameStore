@@ -1,0 +1,31 @@
+@baseUrl = http://localhost:5157
+
+GET {{baseUrl}}/games
+
+###
+GET {{baseUrl}}/games/2
+
+###
+POST {{baseUrl}}/games
+content-type: application/json
+
+{
+    "Name": "",
+    "Genre": "Kids and Family",
+    "Price": 300.99,
+    "ReleaseDate": "2011-11-18"
+}
+
+###
+PUT {{baseUrl}}/games/1
+content-type: application/json
+
+{
+    "name": "Street Fighter II Turbo",
+    "genre": "Fighting",
+    "price": 9.99,
+    "releaseDate": "1991-02-01"    
+}
+
+###
+DELETE {{baseUrl}}/games/2
