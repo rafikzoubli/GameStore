@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafik\\Desktop\\Lesson05.02\\build.proj": {}
+    "C:\\Users\\Rafik\\Desktop\\build.proj": {}
   },
   "projects": {
-    "C:\\Users\\Rafik\\Desktop\\Lesson05.02\\build.proj": {
+    "C:\\Users\\Rafik\\Desktop\\build.proj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafik\\Desktop\\Lesson05.02\\build.proj",
+        "projectUniqueName": "C:\\Users\\Rafik\\Desktop\\build.proj",
         "projectName": "build",
-        "projectPath": "C:\\Users\\Rafik\\Desktop\\Lesson05.02\\build.proj",
+        "projectPath": "C:\\Users\\Rafik\\Desktop\\build.proj",
         "packagesPath": "C:\\Users\\Rafik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafik\\Desktop\\Lesson05.02\\obj\\",
+        "outputPath": "C:\\Users\\Rafik\\Desktop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafik\\AppData\\Roaming\\NuGet\\NuGet.Config",
