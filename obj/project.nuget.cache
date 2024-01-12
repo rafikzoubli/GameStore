@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "9E24JRFGWqlJxUt3dkyVaUlrN+pJZYKYM00MU3gTRHSD/OjZbkxyvt0cAKXZ9LFsGneuJYzoTjxJOiwx6Kghgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafik\\Desktop\\Lesson05.02\\build.proj",
+  "projectFilePath": "C:\\Users\\Rafik\\Desktop\\build.proj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafik\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "C:\\Users\\Rafik\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512"
