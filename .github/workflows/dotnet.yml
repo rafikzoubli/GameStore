@@ -28,6 +28,12 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
 
+
+    - name: Sonar Install
+      run: |
+        dotnet tool install --global dotnet-sonarscanner
+        export PATH="$PATH:$HOME/.dotnet/tools"
+
     - name: SonarCloud Scan
       run: dotnet sonarscanner begin /k:"GameStoreKey" /d:sonar.login="075af062b8b985bc4d112206a8c23c0f84d67481"
     
