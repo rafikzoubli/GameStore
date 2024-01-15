@@ -38,7 +38,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
           distribution: 'adopt'
-          java-version: '11'  # or the desired version    
+          java-version: '17'  # or the desired version    
 
     - name: SonarCloud Scan
       run: dotnet sonarscanner begin /k:"GameStoreKey" /o:"${{ secrets.SONAR_ORGANIZATION_KEY }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
