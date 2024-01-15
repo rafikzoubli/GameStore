@@ -35,7 +35,7 @@ jobs:
         export PATH="$PATH:$HOME/.dotnet/tools"
 
     - name: SonarCloud Scan
-      run: dotnet sonarscanner begin /k:"GameStoreKey" /d:sonar.login="075af062b8b985bc4d112206a8c23c0f84d67481"
+      run: dotnet sonarscanner begin /k:"GameStoreKey" /d:sonar.login="a1fdafbe0e6c5c21926b164a42e73b602b6e9723"
     
     - name: Build and analyze
       run: dotnet build --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
